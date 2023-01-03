@@ -26,7 +26,7 @@ php artisan serve
 
 # Show
 
-![show](https://user-images.githubusercontent.com/95548041/210290020-5a4289d7-32c1-4a35-8339-0d3c0385ea90.png)
+![show](https://user-images.githubusercontent.com/95548041/210320827-e8ead098-36b2-4f35-83fd-adeba793e354.png)
 
 # Edit & Update
 
