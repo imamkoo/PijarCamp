@@ -16,8 +16,6 @@ php artisan config:cache
 php artisan serve
 ```
 
-# Installation & use
+# Home
 
-```bash
 ![home](https://user-images.githubusercontent.com/95548041/210289789-74114b15-3fc1-41f8-b169-f9e23044e768.png)
-```
