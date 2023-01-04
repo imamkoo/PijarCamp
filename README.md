@@ -5,8 +5,8 @@ CRUD menggunakan framework laravel
 # Installation & use
 
 ```bash
-git clone https://github.com/imamkoo/TK1Laravel.git
-cd TK1Laravel/
+git clone https://github.com/imamkoo/PijarCamp.git
+cd PijarCamp/
 composer install
 mv .env.example .env
 # Now, configure your file .env with your DATABASE
