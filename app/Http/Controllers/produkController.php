@@ -125,12 +125,11 @@ class produkController extends Controller
     {
         $cek = produk::find($id);
         $image_path = public_path('thumbnail') . "/" . $cek->thumbnail;
-        $image_path_ = public_path('video') . "/" . $cek->video;
-        if (File::exists($image_path, $image_path_)) {
-            File::delete($image_path, $image_path_);
+        if (File::exists($image_path)) {
+            File::delete($image_path);
         }
 
         produk::where('id', $id)->delete();
-        return redirect('/')->with('delete', 'Video Deleted!');
+        return redirect('/')->with('delete', 'Produk Deleted!');
     }
 }
